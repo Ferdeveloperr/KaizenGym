@@ -1,11 +1,46 @@
+.body {
+    background-color: darkgreen;
+    color: white;
+}
+
+.subtitulo-video {
+    color: white;
+}
+
 #titulo {
+    margin-top: 10px;
     color: white;
     background-color: darkolivegreen;
+}
+
+.video {
+    margin-top: 145px;
 }
 
 .row {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .form-group {
+    margin-bottom: 50px;
+  }
+
+  .titulo-form {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .container {
+    margin-top: 145px;
+    color: white;
+  }
+
+  @media (max-width: 526px) {
+    .video {
+      width: 100%;
+      height: auto;
+    }
   }
   

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     
 </head>
-<body>
+<body class="body">
     <!-- Agregamos el nav -->
     <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
         <div class="container-fluid">
@@ -40,10 +40,12 @@
 
     <div style="text-align: center;">
         <h1 id="titulo">Bienvenido a KaizenGym</h1>
-        <div>
+        <div class="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/dAjstSVKdOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <p>Quien va a ganar? vos o tu mente? Vamos a lograrlo juntos!</p>
+            <b>
+                <p class="subtitulo-video">Quien va a ganar? vos o tu mente? Vamos a lograrlo juntos!</p>
+            </b>
     </div>
 
     <!-- Agregamos un main con el contenido principal -->
@@ -51,16 +53,16 @@
         <div class="container">
             <div class="row">
               <div class="col-md-4">
-                <img src="imagen1.jpg" class="img-fluid" alt="Imagen 1">
-                <a href="#" class="btn btn-primary btn-block mt-3">Enlace 1</a>
+                <img src="./img/rutinaPrincipiantes.jpg" class="img-fluid" alt="Imagen 1">
+                <a href="./pages/servicios.html" class="btn btn-primary btn-block mt-3">Rutina Principiantes</a>
               </div>
               <div class="col-md-4">
-                <img src="imagen2.jpg" class="img-fluid" alt="Imagen 2">
-                <a href="#" class="btn btn-primary btn-block mt-3">Enlace 2</a>
+                <img src="./img/rutinaAvanzados.jpeg" class="img-fluid" alt="Imagen 2">
+                <a href="./pages/servicios.html" class="btn btn-primary btn-block mt-3">Rutina Avanzados</a>
               </div>
               <div class="col-md-4">
-                <img src="imagen3.jpg" class="img-fluid" alt="Imagen 3">
-                <a href="#" class="btn btn-primary btn-block mt-3">Enlace 3</a>
+                <img src="./img/redesSociales.jpg" class="img-fluid" alt="Imagen 3">
+                <a href="https://www.instagram.com/jorge_leguii/" class="btn btn-primary btn-block mt-3" target="_blank">Redes sociales</a>
               </div>
             </div>
           </div>
@@ -68,13 +70,30 @@
           
     </main>
 
+   <!-- Agregamos call to action para llenar el formulario -->
+
+   <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2 text-center">
+        <div class="jumbotron">
+          <h2 class="display-4">Animate!</h2>
+          <p class="lead">Es el momento de que tomes las riendas de tu cuerpo, estas a un paso de cambiar tu vida por completo!</p>
+          <hr class="my-4">
+          <p>Apreta el boton que aparece aca abajo y dejame acompañarte en este gran paso!</p>
+          <a class="btn btn-primary btn-lg" href="./pages/acerca.html" role="button">Contactame</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
     <!-- Agregamos el footer -->
 
-    <footer style="background-color: #333; color: #fff; margin-top: 500px; padding: 20px; text-align: center;">
+    <footer style="background-color: #333; color: #fff; margin-top: 300px; padding: 30px; text-align: center;">
         <div class="container">
         <div class="row">
             <div class="col-12">
-            <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+            <p>&copy; 2023 KaizenGym. Todos los derechos reservados.</p>
             </div>
         </div>
         </div>
