@@ -1,3 +1,11 @@
-.h1 {
-    color: red;
+#titulo {
+    color: white;
+    background-color: darkolivegreen;
 }
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
