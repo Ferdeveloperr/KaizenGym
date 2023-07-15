@@ -1,20 +1,30 @@
+
 .body {
     background-color: darkgreen;
     color: white;
 }
 
+
+.logo {
+  padding-right: 15px;
+}
+
+
+
 .subtitulo-video {
+    margin-top: 50px;
     color: white;
+    
 }
 
 #titulo {
-    margin-top: 10px;
+  justify-content: center;
+    margin-top: 60px;
     color: white;
-    background-color: darkolivegreen;
 }
 
 .video {
-    margin-top: 145px;
+    margin-top: 100px;
 }
 
 .row {
@@ -23,18 +33,42 @@
     align-items: center;
   }
 
+.container-servicios {
+  
+}
+
   .form-group {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+
   }
+
 
   .titulo-form {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
   }
 
-  .container {
-    margin-top: 145px;
+  #formulario-section {
+    background-image: url(../img/backgroundFormOfi.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px;
+  }
+  
+
+  .container-call {
+    margin-top: 100px;
+    margin-bottom: 100px;
     color: white;
+    text-align: center;
+
+  }
+
+
+
+  .container-footer {
+    padding: 30px;
   }
 
   @media (max-width: 526px) {
