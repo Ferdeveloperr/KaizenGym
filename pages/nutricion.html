@@ -6,6 +6,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Nutricion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
     <link rel="icon" href="../dumbbell-solid.svg" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -46,17 +47,47 @@
     
 
     <!-- TITULO Y SUBTITULO -->
+    
+    
+    <div class="title__nutricion">
+        <h1>Beneficios de una alimentacion equilibrada</h1>
+        <p>Consejos útiles sobre cómo mejorar tu dieta y optimizar tu rutina de entrenamiento</p>
+    </div>    
 
-    <h1>Beneficios de una alimentacion equilibrada</h1>
-    <p>Consejos útiles sobre cómo mejorar tu dieta y optimizar tu rutina de entrenamiento</p>
-   
+
+
+    <!-- CARROUSEL -->
+
+
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/sliderUno.jpg" class="d-block w-100" alt="cocinando">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/sliderDos.jpg" class="d-block w-100" alt="frutas">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/sliderTres.jpg" class="d-block w-100" alt="genteEntrenando">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     
 
     <!-- CARDS PARA DIVIDIR EN 3 EL CONTENIDO  -->
 
-    <main>
+    <main class="container__main">
 
-         <!-- TEXTO BREVE INFORMATIVO  -->
+    <!-- TEXTO BREVE INFORMATIVO  -->
 
         <section>
         
@@ -71,7 +102,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
   
-                <img src="./img/rutinaPrincipiantes.jpg" alt="RutinaPrincipiantes" class="card-img-top">
+                <img src="../img/dietaOmnivoros.jpg" alt="dietaOmnivoros" class="card-img-top">
                 <div class="card-body">
   
                     <h5 class="card-title">
@@ -94,7 +125,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
   
-                <img src="./img/rutinaAvanzados.jpeg" alt="RutinaAvanzados" class="card-img-top">
+                <img src="../img/dietaVeggie.jpg" alt="dietaVeggie" class="card-img-top">
                 <div class="card-body">
   
                     <h5 class="card-title">
@@ -117,7 +148,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
   
-                <img src="./img/redesSociales.jpg" alt="RedesSociales" class="card-img-top">
+                <img src="../img/dietaVegan.jpg" alt="dietaVegan" class="card-img-top">
                 <div class="card-body">
   
                     <h5 class="card-title">
@@ -145,8 +176,11 @@
 
     <!-- CALL TO ACTION CONTACT -->
 
-        <h2>OBTENE TU PLAN PERSONALIZADO</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo molestiae magnam sunt numquam ipsum</p>
+
+        <div class="title__contact">
+            <h2>OBTENE TU PLAN PERSONALIZADO</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo molestiae magnam sunt numquam ipsum</p>
+        </div>
 
     <!-- FOOTER  -->
     <footer class="footer-container" style="background-color: #333; color: #fff; text-align: center;">
@@ -168,6 +202,11 @@
         </div>
       </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
 
 </body>
 </html>

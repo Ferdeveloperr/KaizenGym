@@ -43,6 +43,36 @@
 /* AGREGAR ESTILOS NUTRICION */
 
 
+.title__nutricion {
+
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 120px;
+
+}
+
+.title__contact {
+
+  justify-content: center;
+  text-align: center;
+  margin-top: 120px;
+  padding-bottom: 120px;
+}
+
+.carousel-inner {
+  border: 2px solid black; /* Agrega un borde al carrusel */
+  max-width: 600px; /* Limita el ancho máximo del carrusel */
+  margin: 0 auto; /* Centra horizontalmente el carrusel */
+  max-height: 400px;
+  margin-bottom: 120px;
+  
+}
+.carousel-item {
+  width: 100%; /* Ajusta el tamaño de las imágenes al ancho del carrusel */
+  
+}
+
 
 /* AGREGAR ESTILOS SOBRE MI */
 
