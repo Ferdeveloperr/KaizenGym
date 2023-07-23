@@ -77,6 +77,47 @@
 /* AGREGAR ESTILOS SOBRE MI */
 
 
+/* Estilo para el contenedor y las filas */
+.container__sobreJorge {
+  max-width: 960px; /* Ajusta el ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.row__sobreJorge {
+  display: flex; /* Utiliza el modelo de caja flexible */
+  flex-wrap: wrap; /* Permite que las columnas se envuelvan en pantallas pequeñas */
+}
+
+/* Estilo para las columnas en pantallas grandes */
+
+.col-4__sobreJorge {
+  flex-basis: 33.33%; /* Hace que la columna ocupe 33.33% del ancho del contenedor */
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.col-8__sobreJorge {
+  flex-basis: 66.66%; /* Hace que la columna ocupe 66.66% del ancho del contenedor */
+  padding: 10px;
+  margin-left: 20px;
+}
+
+/* Estilo para las imágenes */
+.custom-img__sobreJorge {
+  width: 100%;
+  height: auto;
+  max-height: auto; /* Ajusta la altura máxima de las imágenes */
+}
+
+/* Media Queries para pantallas más pequeñas */
+
+
+
+
+
+/* ESTILOS DEL CONTACTO DE FORMULARIO */
+
+
   .form-group {
     margin-bottom: 40px;
 
@@ -111,10 +152,22 @@
     padding: 30px;
   }
 
-  @media (max-width: 526px) {
-    .video {
-      width: 100%;
-      height: auto;
+
+  @media screen and (max-width: 767px) {
+    .col-4, .col-8 {
+        flex-basis: 100%; /* Las columnas ocupan el 100% del ancho en pantallas pequeñas */
+    }
+  
+    .col-4 {
+        order: 2; /* Cambia el orden de la columna de imagen para que esté debajo del texto */
+    }
+  
+    .col-8 {
+        order: 1; /* Cambia el orden de la columna de texto para que esté arriba de la imagen */
+    }
+  
+    .custom-img {
+        max-height: none; /* Elimina la altura máxima de las imágenes en pantallas pequeñas */
     }
   }
   
