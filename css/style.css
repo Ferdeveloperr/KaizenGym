@@ -93,13 +93,13 @@
 .col-4__sobreJorge {
   flex-basis: 33.33%; /* Hace que la columna ocupe 33.33% del ancho del contenedor */
   padding: 10px;
-  margin-right: 10px;
+
 }
 
 .col-8__sobreJorge {
   flex-basis: 66.66%; /* Hace que la columna ocupe 66.66% del ancho del contenedor */
   padding: 10px;
-  margin-left: 20px;
+  
 }
 
 /* Estilo para las imágenes */
