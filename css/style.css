@@ -1,7 +1,7 @@
 
 .body {
     background-color: darkgreen;
-    color: white;
+    
 }
 
 
@@ -19,8 +19,8 @@
 
 #titulo {
   justify-content: center;
-    margin-top: 60px;
-    color: white;
+  margin-top: 60px;
+  color: white;
 }
 
 .video {
@@ -34,10 +34,6 @@
   }
 
 /* AGREGAR ESTILOS SERVICIOS  */
-
-.container-servicios {
-  
-}
 
 
 /* AGREGAR ESTILOS NUTRICION */
@@ -141,8 +137,8 @@
   .container-call {
     margin-top: 100px;
     margin-bottom: 100px;
-    color: white;
-    text-align: center;
+    color: white
+    text-align: center
 
   }
 
