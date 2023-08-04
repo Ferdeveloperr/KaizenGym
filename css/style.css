@@ -85,11 +85,17 @@
 .container__servicios {
 margin-top: 20px;
 width: 100%;
-padding: auto;
 }
 
 .row__servicios {
-  padding: 10px;
+  padding: 20px;
+  margin-top: 60px;
+  margin left: 30px;
+
+}
+
+.color__servicios {
+  color: white;
 }
 
 /* AGREGAR ESTILOS NUTRICION */
