@@ -1,6 +1,7 @@
 
 .body {
-    background-color: darkgreen;
+  background-color: rgb(8, 124, 8);
+    margin: 0px;
     
 }
 
@@ -35,6 +36,61 @@
 
 /* AGREGAR ESTILOS SERVICIOS  */
 
+.texto__informativo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  height: 100vh;
+}
+
+.left {
+  
+  background: linear-gradient(black, white);
+ 
+}
+
+.left__position {
+  text-align: center;
+  margin-top: 200px;
+  
+}
+
+
+.right {
+  background-image: url(../img/serviciosleft.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.image__capa {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+
+.titulo__servicios {
+  margin-top: 40px;
+}
+
+.subtitulo__servicios {
+  margin-top: 40px;
+}
+
+.container__servicios {
+margin-top: 20px;
+width: 100%;
+padding: auto;
+}
+
+.row__servicios {
+  padding: 10px;
+}
 
 /* AGREGAR ESTILOS NUTRICION */
 
