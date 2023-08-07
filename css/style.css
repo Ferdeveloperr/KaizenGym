@@ -25,7 +25,8 @@
 }
 
 .video {
-    margin-top: 100px;
+    margin-top: 80px;
+
 }
 
 .row {
@@ -122,7 +123,7 @@ width: 100%;
 
 
 .carousel-inner {
-  border: 2px solid black; /* Agrega un borde al carrusel */
+  border: 2px black solid;
   max-width: 600px; /* Limita el ancho máximo del carrusel */
   margin: 0 auto; /* Centra horizontalmente el carrusel */
   max-height: 400px;
@@ -131,6 +132,7 @@ width: 100%;
 }
 .carousel-item {
   width: 100%; /* Ajusta el tamaño de las imágenes al ancho del carrusel */
+  height: auto;
   
 }
 
