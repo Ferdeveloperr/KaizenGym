@@ -21,6 +21,7 @@
 #titulo {
   justify-content: center;
   margin-top: 60px;
+  margin-bottom: 80px;
   color: white;
 }
 
@@ -139,6 +140,10 @@ width: 100%;
 
 /* AGREGAR ESTILOS SOBRE MI */
 
+.color__texto__info {
+  color: white;
+}
+
 
 /* Estilo para el contenedor y las filas */
 .container__sobreJorge {
@@ -171,6 +176,7 @@ width: 100%;
   height: auto;
   max-height: auto; /* Ajusta la altura máxima de las imágenes */
 }
+
 
 /* Media Queries para pantallas más pequeñas */
 
